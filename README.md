@@ -9,9 +9,9 @@ the intended port of discharge, weight of containers, space available on the ter
 To aid our research we visited the PSA BMCT terminal where we had a first hand glimpse on port operations and got an insight on the current scenario regarding handling of containers.
 We did an in-depth study of the method of clusterization and the softwares used along with their limitations
 -------------------------------------------------------------------------------------------------------------------
-ROADBLOCKS:
-Practical constraints pertaining to stowage of containers on sea port terminals include:
+ROADBLOCKS
 
+Practical constraints pertaining to stowage of containers on sea port terminals include:
 Sudden change in the arrival time of containers on port
 Change in berthing schedule of vessels
 Concentrated movements of ITVs on the terminal leading to traffic
@@ -32,6 +32,7 @@ ML groups similar 'POD' values using a text analysis tool and clustering techniq
 
 -------------------------------------------------------------------------------------------------------------------
 WORKING
+
 •	STAGE1: 
 Segregation of Data. The program begins by taking an Excel file (’shipdatasetEXPORT.xlsx’) containing data on multiple ships and their respective container details. It reads this data and creates separate Excel 
 sheets for each vessel, segregating the data based on the ’VESSEL’ column. 
